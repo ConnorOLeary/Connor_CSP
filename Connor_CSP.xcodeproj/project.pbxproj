@@ -111,12 +111,10 @@
 		5B82DC141FA220D3009FDE58 /* Connor_CSP */ = {
 			isa = PBXGroup;
 			children = (
+				5BBF3C201FB3543900F3D2C7 /* Settings */,
+				5BBF3C1E1FB3540500F3D2C7 /* StoryBoards */,
 				5B82DC471FA223D5009FDE58 /* ScreenControllers */,
 				5B82DC151FA220D3009FDE58 /* AppDelegate.swift */,
-				5B82DC191FA220D3009FDE58 /* Main.storyboard */,
-				5B82DC1C1FA220D3009FDE58 /* Assets.xcassets */,
-				5B82DC1E1FA220D3009FDE58 /* LaunchScreen.storyboard */,
-				5B82DC211FA220D3009FDE58 /* Info.plist */,
 			);
 			path = Connor_CSP;
 			sourceTree = "<group>";
@@ -152,6 +150,24 @@
 				5B82DC521FA2244C009FDE58 /* globalImpactController.swift */,
 			);
 			path = ScreenControllers;
+			sourceTree = "<group>";
+		};
+		5BBF3C1E1FB3540500F3D2C7 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				5B82DC1E1FA220D3009FDE58 /* LaunchScreen.storyboard */,
+				5B82DC191FA220D3009FDE58 /* Main.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		5BBF3C201FB3543900F3D2C7 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				5B82DC211FA220D3009FDE58 /* Info.plist */,
+				5B82DC1C1FA220D3009FDE58 /* Assets.xcassets */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
