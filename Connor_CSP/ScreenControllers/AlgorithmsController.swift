@@ -28,7 +28,7 @@ public class AlgorithmsController: UIViewController{
         let stepEight :String = "Step 8: Under the commit button, click undo and replace initial commit with a full sentence Describing what you are creating."
         
         
-        //TODO: Finish adding all steps to teh algorithm
+        //TODO: Finish adding all steps to the algorithm
         algorithmSteps = [stepOne, stepTwo, stepThree, stepFour, stepFive, stepSix, stepSeven, stepEight]
         
         let attributesDictionary = [NSAttributedStringKey.font : algorithmText.font]
