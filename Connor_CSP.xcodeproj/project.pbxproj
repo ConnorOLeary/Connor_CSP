@@ -14,6 +14,13 @@
 		5B82DC201FA220D3009FDE58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B82DC1E1FA220D3009FDE58 /* LaunchScreen.storyboard */; };
 		5B82DC2B1FA220D3009FDE58 /* Connor_CSPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B82DC2A1FA220D3009FDE58 /* Connor_CSPTests.swift */; };
 		5B82DC361FA220D3009FDE58 /* Connor_CSPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B82DC351FA220D3009FDE58 /* Connor_CSPUITests.swift */; };
+		5B82DC461FA223C2009FDE58 /* CreativityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B82DC451FA223C2009FDE58 /* CreativityController.swift */; };
+		5B82DC491FA223F7009FDE58 /* AbstractionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B82DC481FA223F7009FDE58 /* AbstractionController.swift */; };
+		5B82DC4B1FA22409009FDE58 /* DataInformationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B82DC4A1FA22409009FDE58 /* DataInformationController.swift */; };
+		5B82DC4D1FA22418009FDE58 /* AlgorithmsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B82DC4C1FA22418009FDE58 /* AlgorithmsController.swift */; };
+		5B82DC4F1FA22423009FDE58 /* ProgrammingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B82DC4E1FA22423009FDE58 /* ProgrammingController.swift */; };
+		5B82DC511FA22435009FDE58 /* theInternetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B82DC501FA22435009FDE58 /* theInternetController.swift */; };
+		5B82DC531FA2244C009FDE58 /* globalImpactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B82DC521FA2244C009FDE58 /* globalImpactController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		5B82DC311FA220D3009FDE58 /* Connor_CSPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Connor_CSPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B82DC351FA220D3009FDE58 /* Connor_CSPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connor_CSPUITests.swift; sourceTree = "<group>"; };
 		5B82DC371FA220D3009FDE58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B82DC451FA223C2009FDE58 /* CreativityController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreativityController.swift; sourceTree = "<group>"; };
+		5B82DC481FA223F7009FDE58 /* AbstractionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractionController.swift; sourceTree = "<group>"; };
+		5B82DC4A1FA22409009FDE58 /* DataInformationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataInformationController.swift; sourceTree = "<group>"; };
+		5B82DC4C1FA22418009FDE58 /* AlgorithmsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmsController.swift; sourceTree = "<group>"; };
+		5B82DC4E1FA22423009FDE58 /* ProgrammingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammingController.swift; sourceTree = "<group>"; };
+		5B82DC501FA22435009FDE58 /* theInternetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = theInternetController.swift; sourceTree = "<group>"; };
+		5B82DC521FA2244C009FDE58 /* globalImpactController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = globalImpactController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +111,8 @@
 		5B82DC141FA220D3009FDE58 /* Connor_CSP */ = {
 			isa = PBXGroup;
 			children = (
+				5B82DC471FA223D5009FDE58 /* ScreenControllers */,
 				5B82DC151FA220D3009FDE58 /* AppDelegate.swift */,
-				5B82DC171FA220D3009FDE58 /* ViewController.swift */,
 				5B82DC191FA220D3009FDE58 /* Main.storyboard */,
 				5B82DC1C1FA220D3009FDE58 /* Assets.xcassets */,
 				5B82DC1E1FA220D3009FDE58 /* LaunchScreen.storyboard */,
@@ -123,6 +137,21 @@
 				5B82DC371FA220D3009FDE58 /* Info.plist */,
 			);
 			path = Connor_CSPUITests;
+			sourceTree = "<group>";
+		};
+		5B82DC471FA223D5009FDE58 /* ScreenControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5B82DC451FA223C2009FDE58 /* CreativityController.swift */,
+				5B82DC171FA220D3009FDE58 /* ViewController.swift */,
+				5B82DC481FA223F7009FDE58 /* AbstractionController.swift */,
+				5B82DC4A1FA22409009FDE58 /* DataInformationController.swift */,
+				5B82DC4C1FA22418009FDE58 /* AlgorithmsController.swift */,
+				5B82DC4E1FA22423009FDE58 /* ProgrammingController.swift */,
+				5B82DC501FA22435009FDE58 /* theInternetController.swift */,
+				5B82DC521FA2244C009FDE58 /* globalImpactController.swift */,
+			);
+			path = ScreenControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +288,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B82DC491FA223F7009FDE58 /* AbstractionController.swift in Sources */,
+				5B82DC4F1FA22423009FDE58 /* ProgrammingController.swift in Sources */,
+				5B82DC4D1FA22418009FDE58 /* AlgorithmsController.swift in Sources */,
+				5B82DC531FA2244C009FDE58 /* globalImpactController.swift in Sources */,
+				5B82DC4B1FA22409009FDE58 /* DataInformationController.swift in Sources */,
+				5B82DC511FA22435009FDE58 /* theInternetController.swift in Sources */,
+				5B82DC461FA223C2009FDE58 /* CreativityController.swift in Sources */,
 				5B82DC181FA220D3009FDE58 /* ViewController.swift in Sources */,
 				5B82DC161FA220D3009FDE58 /* AppDelegate.swift in Sources */,
 			);
