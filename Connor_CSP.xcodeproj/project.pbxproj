@@ -20,7 +20,7 @@
 		5B82DC4D1FA22418009FDE58 /* AlgorithmsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B82DC4C1FA22418009FDE58 /* AlgorithmsController.swift */; };
 		5B82DC4F1FA22423009FDE58 /* ProgrammingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B82DC4E1FA22423009FDE58 /* ProgrammingController.swift */; };
 		5B82DC511FA22435009FDE58 /* theInternetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B82DC501FA22435009FDE58 /* theInternetController.swift */; };
-		5B82DC531FA2244C009FDE58 /* globalImpactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B82DC521FA2244C009FDE58 /* globalImpactController.swift */; };
+		5BCE04251FB6070200D29C2B /* GlobalImpactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCE04241FB6070200D29C2B /* GlobalImpactController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +60,7 @@
 		5B82DC4C1FA22418009FDE58 /* AlgorithmsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmsController.swift; sourceTree = "<group>"; };
 		5B82DC4E1FA22423009FDE58 /* ProgrammingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammingController.swift; sourceTree = "<group>"; };
 		5B82DC501FA22435009FDE58 /* theInternetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = theInternetController.swift; sourceTree = "<group>"; };
-		5B82DC521FA2244C009FDE58 /* globalImpactController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = globalImpactController.swift; sourceTree = "<group>"; };
+		5BCE04241FB6070200D29C2B /* GlobalImpactController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalImpactController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,7 +147,7 @@
 				5B82DC4C1FA22418009FDE58 /* AlgorithmsController.swift */,
 				5B82DC4E1FA22423009FDE58 /* ProgrammingController.swift */,
 				5B82DC501FA22435009FDE58 /* theInternetController.swift */,
-				5B82DC521FA2244C009FDE58 /* globalImpactController.swift */,
+				5BCE04241FB6070200D29C2B /* GlobalImpactController.swift */,
 			);
 			path = ScreenControllers;
 			sourceTree = "<group>";
@@ -304,10 +304,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BCE04251FB6070200D29C2B /* GlobalImpactController.swift in Sources */,
 				5B82DC491FA223F7009FDE58 /* AbstractionController.swift in Sources */,
 				5B82DC4F1FA22423009FDE58 /* ProgrammingController.swift in Sources */,
 				5B82DC4D1FA22418009FDE58 /* AlgorithmsController.swift in Sources */,
-				5B82DC531FA2244C009FDE58 /* globalImpactController.swift in Sources */,
 				5B82DC4B1FA22409009FDE58 /* DataInformationController.swift in Sources */,
 				5B82DC511FA22435009FDE58 /* theInternetController.swift in Sources */,
 				5B82DC461FA223C2009FDE58 /* CreativityController.swift in Sources */,
