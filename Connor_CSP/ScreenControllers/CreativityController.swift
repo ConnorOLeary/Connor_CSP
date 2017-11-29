@@ -6,4 +6,13 @@
 //  Copyright © 2017 CTEC. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+public class CreativityController: UIViewController{
+    override public func viewDidLoad(){
+        super.viewDidLoad()
+    }
+    override public func didReceiveMemoryWarning(){
+        
+    }
+}
