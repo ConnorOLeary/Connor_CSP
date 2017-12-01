@@ -62,7 +62,31 @@ public class InternetMasterViewController: UITableViewController{
         cell.textLabel!.text = currentText
         return cell
     }
-    
+    override public func prepare(for segue: UIStoryboardSegue, sender: Any?)
+    {
+        if segue.identifier! == "ShowDetail"
+        {
+            if let indexPath = self.tableView.indexPathForSelectedRow
+            {
+                let urlString = addresses[indexPath.row]
+                let pageText : String
+                if indexPath.row == 0
+                {
+                    //TODO: replace with definitions
+                    pageText = "All definitions"
+                }
+                else
+                {
+                    pageText = internetTopics[indexPath.row]
+                }
+                let controller = segue.destination as! InternetDetailViewController
+                controller.detailAddress = urlString
+                controller.detailText = pageText
+                controller.navigationItem.leftBarButtonItem = splitViewController?.displayModeButtonItem
+                controller.navigationItem.leftItemsSupplementBackButton = true
+            }
+        }
+    }
 }
 
 
