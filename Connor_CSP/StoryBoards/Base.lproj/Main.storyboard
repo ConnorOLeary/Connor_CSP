@@ -5,6 +5,7 @@
     </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -206,6 +207,62 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5vT-GM-00a" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2511" y="-1389"/>
+        </scene>
+        <!--Creativity Controller-->
+        <scene sceneID="5Xw-09-jqJ">
+            <objects>
+                <collectionViewController id="9wv-ez-Ue9" customClass="CreativityController" customModule="Connor_CSP" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="fKQ-LW-wJr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="sQd-Dh-4Nn">
+                            <size key="itemSize" width="260" height="292"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="" id="JVx-4X-ltC" customClass="ArtCell" customModule="Connor_CSP" customModuleProvider="target">
+                                <rect key="frame" x="57.5" y="0.0" width="260" height="292"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                    <rect key="frame" x="0.0" y="0.0" width="260" height="292"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gts-hY-0S9">
+                                            <rect key="frame" x="0.0" y="0.0" width="260" height="222"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0BJ-Iv-UWZ">
+                                            <rect key="frame" x="0.0" y="271" width="260" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </view>
+                                <constraints>
+                                    <constraint firstItem="0BJ-Iv-UWZ" firstAttribute="leading" secondItem="JVx-4X-ltC" secondAttribute="leadingMargin" id="5M8-Ry-bxs"/>
+                                    <constraint firstItem="0BJ-Iv-UWZ" firstAttribute="top" secondItem="gts-hY-0S9" secondAttribute="bottom" id="Sxh-4Y-j83"/>
+                                    <constraint firstAttribute="bottomMargin" secondItem="0BJ-Iv-UWZ" secondAttribute="bottom" id="d2Z-Yz-mHg"/>
+                                    <constraint firstItem="0BJ-Iv-UWZ" firstAttribute="top" secondItem="gts-hY-0S9" secondAttribute="bottom" id="pnt-3I-n0c"/>
+                                    <constraint firstAttribute="trailingMargin" secondItem="0BJ-Iv-UWZ" secondAttribute="trailing" id="yb5-2A-bpD"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="imageName" destination="0BJ-Iv-UWZ" id="ep8-1j-dMn"/>
+                                    <outlet property="imageView" destination="gts-hY-0S9" id="ao9-BE-58Q"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="9wv-ez-Ue9" id="QSh-0g-5F2"/>
+                            <outlet property="delegate" destination="9wv-ez-Ue9" id="4ga-AG-8IA"/>
+                        </connections>
+                    </collectionView>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sMW-lF-I8i" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2332" y="-217.24137931034485"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
