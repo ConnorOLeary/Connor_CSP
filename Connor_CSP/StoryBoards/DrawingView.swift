@@ -39,6 +39,16 @@ public class DrawingView : UIView
         
         return stickFigure
     }
+    private func drawTurtle() -> Void
+    {
+        let logo = UIBezierPath()
+        UIColor.white.setFill()
+        logo.move(to: CGPoint(x:50, y:250))
+        logo.addLine(to: CGPoint(x:100, y:300))
+        logo.addLine(to: CGPoint(x:50, y:350))
+        logo.close()
+        logo.fill()
+    }
     
     public func drawHappyTree() -> Void
     {
@@ -48,7 +58,7 @@ public class DrawingView : UIView
         bobRoss.addLine(to: CGPoint(x:120,y:150))
         bobRoss.addLine(to: CGPoint(x:40,y:150))
         bobRoss.close()
-        UIColor(patternImage:UIImage(named: "cute")!).setFill()
+        UIColor(patternImage:UIImage(named: "blade")!).setFill()
         UIColor.brown.setStroke()
         bobRoss.lineWidth = 2.0
         bobRoss.fill()
@@ -70,8 +80,4 @@ public class DrawingView : UIView
         happyTree.stroke()
     }
     
-    private func drawTurtle() -> Void
-    {
-        
-    }
 }

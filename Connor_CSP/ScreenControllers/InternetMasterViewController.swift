@@ -53,9 +53,11 @@ public class InternetMasterViewController: UITableViewController{
     override public func numberOfSections(in tableView: UITableView) -> Int{
         return 1
     }
+    
     override public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int{
         return internetTopics.count
     }
+    
     override public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell{
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
         let currentText = internetTopics[indexPath.row]

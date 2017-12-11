@@ -17,18 +17,18 @@ public class CreativityController: UICollectionViewController, UICollectionViewD
     private lazy var artSelection : [UIImage?] =
     {
         return [
-            UIImage(named: ""),
-            UIImage(named: ""),
-            UIImage(named: ""),
-            UIImage(named: ""),
-            UIImage(named: ""),
-            UIImage(named: ""),
-            UIImage(named: ""),
-            UIImage(named: ""),
-            UIImage(named: ""),
-            UIImage(named: ""),
-            UIImage(named: ""),
-            UIImage(named: "")]
+            UIImage(named: "blade"),
+            UIImage(named: "blade"),
+            UIImage(named: "blade"),
+            UIImage(named: "blade"),
+            UIImage(named: "blade"),
+            UIImage(named: "blade"),
+            UIImage(named: "blade"),
+            UIImage(named: "blade"),
+            UIImage(named: "blade"),
+            UIImage(named: "blade"),
+            UIImage(named: "blade"),
+            UIImage(named: "blade")]
     }()
     
     var largePhotoIndexPath: IndexPath?
@@ -83,6 +83,7 @@ public class CreativityController: UICollectionViewController, UICollectionViewD
         artCell.backgroundColor = .blue
         artCell.imageView.image = artSelection[indexPath.row]
         artCell.imageName.text = "MyArt"
+        
         return artCell
     }
     public func collectionView(_ collectionView: UICollectionView,
@@ -118,7 +119,9 @@ public class CreativityController: UICollectionViewController, UICollectionViewD
         {
             largePhotoIndexPath = nil
         }
-        else{largePhotoIndexPath = indexPath
+        else
+        {
+            largePhotoIndexPath = indexPath
         }
         return false
         }
