@@ -7,12 +7,21 @@
 //
 
 import UIKit
+import SpriteKit
 
 public class ProgrammingController: UIViewController{
+    
     override public func viewDidLoad(){
         super.viewDidLoad()
-    }
-    override public func didReceiveMemoryWarning(){
+        let gameScene = StartScene(sie: view.bounds.size)
+        let gameView = view as! SKView
         
+        gameView.showFPS = true
+        gameView.showsNodeCount = true
+        gameView.ignoresSiblingOrder = true
+        
+        gameScene.scaleMode = .resizeFill
+        gameView.presentScene(gameScene)
     }
+    
 }
