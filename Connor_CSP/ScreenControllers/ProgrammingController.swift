@@ -13,10 +13,10 @@ public class ProgrammingController: UIViewController{
     
     override public func viewDidLoad(){
         super.viewDidLoad()
-        let gameScene = StartScene(sie: view.bounds.size)
+        let gameScene = StartScene(size: view.bounds.size)
         let gameView = view as! SKView
         
-        gameView.showFPS = true
+        gameView.showsFPS = true
         gameView.showsNodeCount = true
         gameView.ignoresSiblingOrder = true
         

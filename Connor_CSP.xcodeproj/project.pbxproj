@@ -27,6 +27,19 @@
 		5BA937EF1FCF0A03004E6212 /* InternetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA937EE1FCF0A03004E6212 /* InternetMasterViewController.swift */; };
 		5BA937F21FCF0B63004E6212 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BA937F11FCF0B63004E6212 /* WebKit.framework */; };
 		5BCE04251FB6070200D29C2B /* GlobalImpactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCE04241FB6070200D29C2B /* GlobalImpactController.swift */; };
+		5BD91AE11FE41EE60069EFC9 /* Invader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B91DDFC1FE1896F0032868C /* Invader.swift */; };
+		5BD91AE21FE41EE60069EFC9 /* InvaderLaser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B91DDF91FE1896F0032868C /* InvaderLaser.swift */; };
+		5BD91AE31FE41EE60069EFC9 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B91DDFB1FE1896F0032868C /* Player.swift */; };
+		5BD91AE41FE41EE60069EFC9 /* PlayerLaser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B91DDFA1FE1896F0032868C /* PlayerLaser.swift */; };
+		5BD91AE51FE41EE60069EFC9 /* Projectile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B91DDF81FE1896F0032868C /* Projectile.swift */; };
+		5BD91AE61FE41EEE0069EFC9 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B91DDF71FE1895C0032868C /* GameScene.swift */; };
+		5BD91AE71FE41EEE0069EFC9 /* LevelCompleteScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B91DDF61FE1895C0032868C /* LevelCompleteScene.swift */; };
+		5BD91AE81FE41EEE0069EFC9 /* StartScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B91DDF51FE1895C0032868C /* StartScene.swift */; };
+		5BD91AE91FE41EF60069EFC9 /* boss sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5B91DDF21FE1894C0032868C /* boss sound.mp3 */; };
+		5BD91AEA1FE41EF60069EFC9 /* extra sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5B91DDF01FE1894C0032868C /* extra sound.mp3 */; };
+		5BD91AEB1FE41EF60069EFC9 /* invader sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5B91DDF31FE1894C0032868C /* invader sound.mp3 */; };
+		5BD91AEC1FE41EF60069EFC9 /* laser sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5B91DDF11FE1894C0032868C /* laser sound.mp3 */; };
+		5BD91AED1FE41EF60069EFC9 /* powerup sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5B91DDF41FE1894C0032868C /* powerup sound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -364,9 +377,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B82DC201FA220D3009FDE58 /* LaunchScreen.storyboard in Resources */,
+				5BD91AED1FE41EF60069EFC9 /* powerup sound.mp3 in Resources */,
 				5B82DC1D1FA220D3009FDE58 /* Assets.xcassets in Resources */,
 				5B91DDE61FE177550032868C /* StarField.sks in Resources */,
 				5B82DC1B1FA220D3009FDE58 /* Main.storyboard in Resources */,
+				5BD91AEA1FE41EF60069EFC9 /* extra sound.mp3 in Resources */,
+				5BD91AEC1FE41EF60069EFC9 /* laser sound.mp3 in Resources */,
+				5BD91AE91FE41EF60069EFC9 /* boss sound.mp3 in Resources */,
+				5BD91AEB1FE41EF60069EFC9 /* invader sound.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,17 +410,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BCE04251FB6070200D29C2B /* GlobalImpactController.swift in Sources */,
+				5BD91AE81FE41EEE0069EFC9 /* StartScene.swift in Sources */,
+				5BD91AE61FE41EEE0069EFC9 /* GameScene.swift in Sources */,
 				5B8B514E1FD989DB004D3B94 /* ArtCell.swift in Sources */,
 				5B82DC491FA223F7009FDE58 /* AbstractionController.swift in Sources */,
 				5B8B51501FD989FF004D3B94 /* DrawingView.swift in Sources */,
+				5BD91AE31FE41EE60069EFC9 /* Player.swift in Sources */,
+				5BD91AE71FE41EEE0069EFC9 /* LevelCompleteScene.swift in Sources */,
 				5B3512411FE175EE0078480E /* Utilities.swift in Sources */,
+				5BD91AE51FE41EE60069EFC9 /* Projectile.swift in Sources */,
 				5BA937EF1FCF0A03004E6212 /* InternetMasterViewController.swift in Sources */,
 				5B82DC4F1FA22423009FDE58 /* ProgrammingController.swift in Sources */,
 				5B82DC4D1FA22418009FDE58 /* AlgorithmsController.swift in Sources */,
 				5B82DC4B1FA22409009FDE58 /* DataInformationController.swift in Sources */,
+				5BD91AE11FE41EE60069EFC9 /* Invader.swift in Sources */,
 				5B82DC461FA223C2009FDE58 /* CreativityController.swift in Sources */,
 				5B82DC181FA220D3009FDE58 /* ViewController.swift in Sources */,
+				5BD91AE41FE41EE60069EFC9 /* PlayerLaser.swift in Sources */,
 				5B26FFC21FCF007D00B60A3E /* InternetDetailViewController.swift in Sources */,
+				5BD91AE21FE41EE60069EFC9 /* InvaderLaser.swift in Sources */,
 				5B82DC161FA220D3009FDE58 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -570,6 +596,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X77K8LBKTS;
 				INFOPLIST_FILE = "$(SRCROOT)/Connor_CSP/Settings/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "CTEC.Connor-CSP";
@@ -584,6 +611,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X77K8LBKTS;
 				INFOPLIST_FILE = "$(SRCROOT)/Connor_CSP/Settings/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "CTEC.Connor-CSP";
