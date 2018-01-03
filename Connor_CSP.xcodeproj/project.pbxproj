@@ -202,6 +202,7 @@
 		5B91DDE71FE188760032868C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				5B91DDE51FE177550032868C /* StarField.sks */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -253,7 +254,6 @@
 		5BBF3C1E1FB3540500F3D2C7 /* StoryBoards */ = {
 			isa = PBXGroup;
 			children = (
-				5B91DDE51FE177550032868C /* StarField.sks */,
 				5B82DC1E1FA220D3009FDE58 /* LaunchScreen.storyboard */,
 				5B82DC191FA220D3009FDE58 /* Main.storyboard */,
 				5B8B514F1FD989FF004D3B94 /* DrawingView.swift */,

@@ -14,7 +14,7 @@ class DeathScene: SKScene
     override public func didMove(to view: SKView) -> Void
     {
         self.backgroundColor = SKColor.green
-        let gameOver = SKLabelNode(text: "You suck, get dead'ed")
+        let gameOver = SKLabelNode(text: "lul rekt")
         gameOver.name = "game over"
         gameOver.fontSize = 65
         gameOver.fontColor = SKColor.red
